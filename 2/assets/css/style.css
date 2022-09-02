@@ -76,7 +76,20 @@ li {
     color: #fff;
 }
 
+.slider {
+    height: 300px;
+    width: 100%;  
+    display:flex;
+    background-color: #f8f8f8;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
 
+.slider img {
+    width:1248px;
+    height: 462px;
+}
 
 .navigation ul {
     justify-content: center;
@@ -168,7 +181,7 @@ li {
 .company {
     display: flex;
     padding-top: 50px;
-    padding-left: 180px;
+    padding-left: 150px;
 
 }
 
@@ -183,10 +196,15 @@ li {
 
 .imglogo {
     padding-top: 50px;
-    padding-left: 60px;
+    padding-right: 10px;
 }
 
 .com {
     padding-top: 50px;
     padding-right: 100px;
+}
+
+.footerright {
+    display: flex;
+    justify-content: baseline;
 }
